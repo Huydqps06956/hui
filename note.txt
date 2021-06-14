@@ -21,3 +21,7 @@
 => tạo ra 1 branch mới từ branch hiện tại sau khi tạo branch mới nó sẽ tự động chuyển sang branch mới
 -git checkout <branch-name>
 => chuyển sang branch <branch-name>
+-git branch
+=> liệt kê tất cả các branch hiện đang có
+-git pull
+=> kéo những commit mới nhất của remote branch về local branch

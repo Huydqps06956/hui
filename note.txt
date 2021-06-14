@@ -12,4 +12,8 @@
 -git add file-name
 => xác nhận thêm file file-name vào vùng stagin
 -git add .
-=> xác nhận thêm tất cả các file vừa thêm mới hoặc thay đổi vào vùng stagin
+=> xác nhận thêm tất cả các file vừa thêm mới hoặc thay đổi vào vùng stagingg
+-git commit -m "message"
+=> commit những file đã tay đổi ở phân vùng staging đưa vào vùng local reponsitory, và kèm theo một message
+-git push
+=> push những thay đổi đã được commit từ local reponsitory => remote reponsitory

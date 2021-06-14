@@ -25,3 +25,4 @@
 => liệt kê tất cả các branch hiện đang có
 -git pull
 => kéo những commit mới nhất của remote branch về local branch
+----

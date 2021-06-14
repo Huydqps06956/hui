@@ -26,3 +26,4 @@
 -git pull
 => kéo những commit mới nhất của remote branch về local branch
 ----
+git push -u origin feature-a

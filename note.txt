@@ -16,4 +16,8 @@
 -git commit -m "message"
 => commit những file đã tay đổi ở phân vùng staging đưa vào vùng local reponsitory, và kèm theo một message
 -git push
-=> push những thay đổi đã được commit từ local reponsitory => remote reponsitory
+=> push những thay đổi đã được commit từ local reponsitory => remote reponsitorygit 
+-git check out -b <brach-name>
+=> tạo ra 1 branch mới từ branch hiện tại sau khi tạo branch mới nó sẽ tự động chuyển sang branch mới
+-git checkout <branch-name>
+=> chuyển sang branch <branch-name>

@@ -27,3 +27,11 @@
 => kéo những commit mới nhất của remote branch về local branch
 ----
 git push -u origin feature-a
+
+cách fix đụng độ code khi merge 1 branch vào master: (master - feature a)
+b1: git checkout master => chuyển về branch master
+b2: git pull => đồng bộ code từ remote về local
+b3: git checkout feature-a => chuyển về branch feature-a 
+b4: git merge master => hợp nhất những commit mới nhất của master vào branch feature-add
+b5: fix conflict tren vscode
+b6: add, commit và push feature-a lên remote
